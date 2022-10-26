@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
+
+html {
+    font-size: 18px;
+    padding: 2em;
+    margin: 0 auto;
+    color: #00505a;
+    background: #fffcf2;
+    min-width: 700px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-indent: 6px;
+    text-align: justify;
+    margin: 0 0 1em 0;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    margin: 24px 0 24px 0;
+    text-indent: 6px;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    margin: 20px 0 20px 0;
+    text-indent: 6px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+nav {
+    word-spacing: 3em;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    outline-style: groove;
+    background: #b9671b;
+}
+
+figure > img {
+    width: 100%;
+    outline: double;
+}
+
+figcaption {
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+ol {
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+ul {
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+ol > li {
+    list-style: decimal inside;
+}
+
+ul > li {
+    list-style: square inside;
+}
+
+footer {
+    text-align: center;
+    word-spacing: 2em;
+    margin-top: 3em;
+}
+
+footer > p {
+    word-spacing: 0;
+    text-align: center;
+}
+
+footer > a > img {
+    width: 50px;
+}
